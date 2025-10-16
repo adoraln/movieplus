@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies - Clone de Streaming</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Movies+</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Series</a>
+            <a href="#">Movies</a>
+            <a href="#">Kids</a>
+        </nav>
+
+        <div class="user-actions">
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            <img src="img/imagespfp.jpg" alt="User Avatar" class="user-avatar">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Demon Slayer: Mugen Train </h1>
+                <p class="hero-description">
+                    A boy raised by a boar embarks on the Infinity Train on a new quest with the Pillar of Flame, along
+                    with another boy who reveals his true power in his sleep. Their mission is to defeat a demon that
+                    has been tormenting people.
+                </p>
+                <div class="hero-meta">
+                    <span>by: Haruo Sotozaki</span>
+                    <span class="tag">Action</span>
+                    <span class="year">2021</span>
+                    <span class="imdb">
+                        <i class='bx bxs-star'></i> 4.9
+                    </span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">
+                        <i class='bx bx-play'></i> Watch
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class='bx bx-plus'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-section">
+            <h2 class="section-title">Popular</h2>
+            <div class="carousel-container">
+                <button class="carousel-arrow left-arrow" id="leftArrow">&#10094;</button>
+                <div class="movies-list" id="moviesList">
+                    <div class="movie-poster">
+                        <img src="img/moneyheist.jpg" alt="Money Heist">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/johnwick.jpg" alt="John Wick">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/avatar.jpg" alt="Avatar">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/avengers.jpg" alt="Avengers">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/notimetodiei.jpg" alt="No Time to Die">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/jokertwotwo2.jpg" alt="Joker">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/thorloveandthunder.jpg" alt="thorloveandthunder">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/blackpanthermoviedvd.jpg" alt="Black Panther">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/lotr.jpg" alt="lotr">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/tlsm.jpg" alt="tlsm">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/moonlight.jpg" alt="moonlight">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/sicario.jpg" alt="sicario">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/soti.jpg" alt="soti">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/duna.webp" alt="duna">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/us.jpg" alt="us">
+                    </div>
+                    <div class="movie-poster">
+                        <img src="img/bhrb.jpg" alt="bhrb">
+                    </div>
+                </div>
+                <button class="carousel-arrow right-arrow" id="rightArrow">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
